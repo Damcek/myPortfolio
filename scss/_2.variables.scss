@@ -32,3 +32,7 @@ $font-sizes: (
   "font-size-large": calc(1.5rem + 5vw),
   "font-size-xlarge": calc(2.5rem + 5vw),
 );
+
+@function font-size($font-size-style) {
+  @return map-get($font-sizes, $font-size-style);
+}
