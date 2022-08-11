@@ -1,0 +1,34 @@
+.header {
+  grid-column: center-start / center-end;
+  background-color: var(--color-primary);
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+
+    &--logo {
+
+    }
+
+    &--links {
+      display: flex;
+      justify-content: space-between;
+      width: 40rem;
+
+      a:link, 
+      a:visited {
+      }
+    }
+
+    &--game-room {
+      color: rgb(41, 0, 51);
+
+      img {
+        color: inherit;
+      }
+    }
+
+    &--night-toggle {
+
+    }
+  }
+}
