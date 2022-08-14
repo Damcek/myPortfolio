@@ -78,6 +78,35 @@
       display: none;
     }
   }
+
+  &__main {
+    position: relative;
+    height: 90vh;
+    color: var(--color-quinary);
+
+    &--title {
+      position: absolute;
+      left: 0vw;
+      top: 35vh;
+      z-index: 10;
+      font-size: font-size(font-size-medium);
+      letter-spacing: .2rem;
+    }
+
+    &--img {
+      position: absolute;
+      align-self: center;
+      top: 30vh;
+      right: 0vw;
+      box-shadow: 50px 50px 50px 0  var(--color-primary) inset, -50px -50px 50px 0  var(--color-primary) inset;
+
+      img {
+      width: 50rem;
+      opacity: 50%;
+      
+      }
+    }
+  }
 }
 
 @keyframes game-button {
